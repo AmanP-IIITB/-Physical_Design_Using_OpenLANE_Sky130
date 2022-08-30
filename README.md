@@ -212,7 +212,7 @@ package require openlane 0.9
 prep -design picorv32a
 ```
 
-![6  openlane step - prep -design picorv32a](https://user-images.githubusercontent.com/83152452/185787631-bbd5fb79-ce07-4d4c-a058-23894c290c5d.png)
+![prep -design](https://user-images.githubusercontent.com/110079634/187342761-089c8303-1b22-4b14-9e9c-f87f03d89beb.png)
 
 
 #### Review of files & Synthesis step
@@ -222,7 +222,7 @@ prep -design picorv32a
 
 `run_synthesis`
 
-![openlane - placement - run_synthesis](https://user-images.githubusercontent.com/83152452/185788656-fd086122-f98e-4fc0-bd4e-a711555c8435.png)
+![run_synthesis](https://user-images.githubusercontent.com/110079634/187342903-a4fd7521-8fed-4993-8df0-1207057c7be9.png)
 
 
 * The yosys and ABC tools are utilised to convert RTL to gate level netlist.
@@ -242,13 +242,13 @@ Flop ratio = 1613/14876 = 0.1084 = 10.84%
 * The synthesis statistics report can be accessed within the reports directory. It is usually the last yosys file since files are listed chronologically by date of modification.
 * The synthesis timings report are as follows:
 
-![7  synthesis report-timing](https://user-images.githubusercontent.com/83152452/185787646-954e92b2-c2c0-47ed-be00-ccabd63b3cd6.png)
+![sta log](https://user-images.githubusercontent.com/110079634/187343442-4ca865e7-c0ba-45fd-9bce-aa92cdaedb4c.png)
 
-![7  synthesis report-timing-1](https://user-images.githubusercontent.com/83152452/185787648-8672040d-418b-4202-9d3b-a148259c20a0.png)
 
 * The synthesis power report is as follows:
 
-![7  report_power](https://user-images.githubusercontent.com/83152452/185787655-bf47f6ef-eb12-412f-9e3b-ff5da6946190.png)
+
+![report-power](https://user-images.githubusercontent.com/110079634/187343805-3ea118f5-ade4-4e66-90c8-1ae52d05e0f0.png
 
 
 
